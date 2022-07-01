@@ -1,0 +1,357 @@
+
+*** Running vivado
+    with args -log multiplier_ip_v1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source multiplier_ip_v1_0.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source multiplier_ip_v1_0.tcl -notrace
+Command: synth_design -top multiplier_ip_v1_0 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 720 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 343.395 ; gain = 100.324
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'multiplier_ip_v1_0' [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0.vhd:49]
+	Parameter LED_WIDTH bound to: 8 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter LED_WIDTH bound to: 8 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'multiplier_ip_v1_0_S_AXI' declared at 'c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd:7' bound to instance 'multiplier_ip_v1_0_S_AXI_inst' of component 'multiplier_ip_v1_0_S_AXI' [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'multiplier_ip_v1_0_S_AXI' [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd:87]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+WARNING: [Synth 8-3819] Generic 'led_width' not present in instantiated entity will be ignored [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0.vhd:87]
+INFO: [Synth 8-226] default block is never used [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd:242]
+INFO: [Synth 8-226] default block is never used [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd:372]
+WARNING: [Synth 8-614] signal 'mult_out' is read in the process but is not in the sensitivity list [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd:367]
+	Parameter LED_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'lab4_user_logic' declared at 'c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/src/lab4_user_logic.vhd:5' bound to instance 'lab4_user_logic_inst' of component 'lab4_user_logic' [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd:410]
+INFO: [Synth 8-638] synthesizing module 'lab4_user_logic' [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/src/lab4_user_logic.vhd:22]
+	Parameter LED_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lab4_user_logic' (1#1) [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/src/lab4_user_logic.vhd:22]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd:237]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd:240]
+INFO: [Synth 8-256] done synthesizing module 'multiplier_ip_v1_0_S_AXI' (2#1) [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'multiplier_ip_v1_0' (3#1) [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0.vhd:49]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[31]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[30]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[29]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[28]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[27]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[26]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[25]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[24]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[23]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[22]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[21]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[20]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[19]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[18]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[17]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[16]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[15]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[14]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[13]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[12]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[11]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[10]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[9]
+WARNING: [Synth 8-3331] design lab4_user_logic has unconnected port S_AXI_WDATA[8]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0_S_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0_S_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0_S_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0_S_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0_S_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 395.992 ; gain = 152.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 395.992 ; gain = 152.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 395.992 ; gain = 152.922
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd:386]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 395.992 ; gain = 152.922
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module lab4_user_logic 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module multiplier_ip_v1_0_S_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP multiplier_ip_v1_0_S_AXI_inst/multOp, operation Mode is: A*B.
+DSP Report: operator multiplier_ip_v1_0_S_AXI_inst/multOp is absorbed into DSP multiplier_ip_v1_0_S_AXI_inst/multOp.
+DSP Report: operator multiplier_ip_v1_0_S_AXI_inst/multOp is absorbed into DSP multiplier_ip_v1_0_S_AXI_inst/multOp.
+DSP Report: Generating DSP multiplier_ip_v1_0_S_AXI_inst/multOp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multiplier_ip_v1_0_S_AXI_inst/multOp is absorbed into DSP multiplier_ip_v1_0_S_AXI_inst/multOp.
+DSP Report: operator multiplier_ip_v1_0_S_AXI_inst/multOp is absorbed into DSP multiplier_ip_v1_0_S_AXI_inst/multOp.
+DSP Report: Generating DSP multiplier_ip_v1_0_S_AXI_inst/multOp, operation Mode is: A*B.
+DSP Report: operator multiplier_ip_v1_0_S_AXI_inst/multOp is absorbed into DSP multiplier_ip_v1_0_S_AXI_inst/multOp.
+DSP Report: operator multiplier_ip_v1_0_S_AXI_inst/multOp is absorbed into DSP multiplier_ip_v1_0_S_AXI_inst/multOp.
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0 has unconnected port s_axi_awprot[2]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0 has unconnected port s_axi_awprot[1]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0 has unconnected port s_axi_awprot[0]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0 has unconnected port s_axi_arprot[2]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0 has unconnected port s_axi_arprot[1]
+WARNING: [Synth 8-3331] design multiplier_ip_v1_0 has unconnected port s_axi_arprot[0]
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\multiplier_ip_v1_0_S_AXI_inst/aw_en_reg )
+INFO: [Synth 8-3886] merging instance 'multiplier_ip_v1_0_S_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'multiplier_ip_v1_0_S_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\multiplier_ip_v1_0_S_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'multiplier_ip_v1_0_S_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'multiplier_ip_v1_0_S_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\multiplier_ip_v1_0_S_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (multiplier_ip_v1_0_S_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module multiplier_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (multiplier_ip_v1_0_S_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module multiplier_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (multiplier_ip_v1_0_S_AXI_inst/aw_en_reg) is unused and will be removed from module multiplier_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (multiplier_ip_v1_0_S_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module multiplier_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (multiplier_ip_v1_0_S_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module multiplier_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (multiplier_ip_v1_0_S_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module multiplier_ip_v1_0.
+WARNING: [Synth 8-3332] Sequential element (multiplier_ip_v1_0_S_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module multiplier_ip_v1_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 561.531 ; gain = 318.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++-------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name              | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|multiplier_ip_v1_0_S_AXI | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier_ip_v1_0_S_AXI | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier_ip_v1_0_S_AXI | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 561.531 ; gain = 318.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 561.531 ; gain = 318.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 561.531 ; gain = 318.461
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 561.531 ; gain = 318.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 561.531 ; gain = 318.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 561.531 ; gain = 318.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 561.531 ; gain = 318.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 561.531 ; gain = 318.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |     4|
+|3     |DSP48E1 |     3|
+|4     |LUT1    |     1|
+|5     |LUT2    |    16|
+|6     |LUT3    |     3|
+|7     |LUT4    |    14|
+|8     |LUT5    |     9|
+|9     |LUT6    |    33|
+|10    |FDRE    |   143|
+|11    |FDSE    |     2|
+|12    |IBUF    |    47|
+|13    |OBUF    |    49|
++------+--------+------+
+
+Report Instance Areas: 
++------+--------------------------------+-------------------------+------+
+|      |Instance                        |Module                   |Cells |
++------+--------------------------------+-------------------------+------+
+|1     |top                             |                         |   325|
+|2     |  multiplier_ip_v1_0_S_AXI_inst |multiplier_ip_v1_0_S_AXI |   228|
+|3     |    lab4_user_logic_inst        |lab4_user_logic          |    20|
++------+--------------------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 561.531 ; gain = 318.461
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 47 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 561.531 ; gain = 318.461
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 561.531 ; gain = 318.461
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 54 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 47 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 666.723 ; gain = 436.613
+INFO: [Common 17-1381] The checkpoint 'c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/edit_multiplier_ip_v1_0.runs/synth_1/multiplier_ip_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file multiplier_ip_v1_0_utilization_synth.rpt -pb multiplier_ip_v1_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 666.723 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 23 15:59:38 2022...

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1648040349">
+  <File Type="PA-TCL" Name="multiplier_ip_v1_0.tcl"/>
+  <File Type="REPORTS-TCL" Name="multiplier_ip_v1_0_reports.tcl"/>
+  <File Type="RDS-RDS" Name="multiplier_ip_v1_0.vds"/>
+  <File Type="RDS-UTIL" Name="multiplier_ip_v1_0_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="multiplier_ip_v1_0_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="multiplier_ip_v1_0.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/multiplier_ip_1.0/src/lab4_user_logic.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/multiplier_ip_1.0/hdl/multiplier_ip_v1_0_S_AXI.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/multiplier_ip_1.0/hdl/multiplier_ip_v1_0.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/multiplier_ip_1.0/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="multiplier_ip_v1_0"/>
+      <Option Name="TopRTLFile" Val="$PPRDIR/multiplier_ip_1.0/hdl/multiplier_ip_v1_0.vhd"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

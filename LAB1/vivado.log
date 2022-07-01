@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Jul 01 18:01:18 2022
+# Process ID: 6112
+# Current directory: C:/Users/Beyazit/vivadoprojects/labs/lab1_byzt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9632 C:\Users\Beyazit\vivadoprojects\labs\lab1_byzt\lab1_byzt.xpr
+# Log file: C:/Users/Beyazit/vivadoprojects/labs/lab1_byzt/vivado.log
+# Journal file: C:/Users/Beyazit/vivadoprojects/labs/lab1_byzt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 01 18:01:31 2022...

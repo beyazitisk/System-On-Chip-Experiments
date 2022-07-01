@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Mar 23 17:08:44 2022
+# Process ID: 3756
+# Current directory: C:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10388 C:\Users\Beyazit\vivadoprojects\labs\LAB4V1\multiplier_ip\ip_repo\edit_multiplier_ip_v1_0.xpr
+# Log file: C:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/vivado.log
+# Journal file: C:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/edit_multiplier_ip_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xlinx/Vivado/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 731.340 ; gain = 37.816
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file C:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/multiplier_ip_1.0/component.xml
+launch_runs impl_1 -jobs 6
+[Wed Mar 23 17:11:57 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Beyazit/vivadoprojects/labs/LAB4V1/multiplier_ip/ip_repo/edit_multiplier_ip_v1_0.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 54 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 1110.648 ; gain = 0.805
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 1110.648 ; gain = 0.805
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1202.793 ; gain = 408.754
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 23 17:14:24 2022...

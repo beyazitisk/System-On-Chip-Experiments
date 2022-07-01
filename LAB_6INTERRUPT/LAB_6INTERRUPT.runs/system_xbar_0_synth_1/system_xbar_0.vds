@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 26 20:51:35 2022
+# Process ID: 10264
+# Current directory: C:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.runs/system_xbar_0_synth_1
+# Command line: vivado.exe -log system_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_xbar_0.tcl
+# Log file: C:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.runs/system_xbar_0_synth_1/system_xbar_0.vds
+# Journal file: C:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.runs/system_xbar_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_xbar_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 309.086 ; gain = 98.789
+INFO: [Synth 8-638] synthesizing module 'system_xbar_0' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_axi_crossbar' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_crossbar_sasd' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_addr_decoder' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (2#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_addr_decoder' (3#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_decerr_slave' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_decerr_slave' (4#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_addr_arbiter_sasd' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_addr_arbiter_sasd' (5#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_splitter' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_splitter' (6#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_12_splitter__parameterized0' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_splitter__parameterized0' (6#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (7#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (7#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (7#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (7#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_11_axic_register_slice' (8#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/0b6b/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' (8#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/7ee0/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_crossbar_sasd' (9#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_12_axi_crossbar' (10#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ipshared/896d/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'system_xbar_0' (11#1) [c:/Users/Beyazit/vivadoprojects/LAB_6INTERRUPT/LAB_6INTERRUPT.srcs/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 425.098 ; gain = 214.801
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 425.098 ; gain = 214.801
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.309 . Memory (MB): peak = 667.629 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:47 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:47 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:47 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:47 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:48 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:57 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:57 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:57 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:57 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:57 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:58 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:58 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:58 . Memory (MB): peak = 667.629 ; gain = 457.332
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:58 . Memory (MB): peak = 667.629 ; gain = 457.332
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    12|
+|3     |LUT3 |    11|
+|4     |LUT4 |    81|
+|5     |LUT5 |    12|
+|6     |LUT6 |    53|
+|7     |FDRE |   130|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:58 . Memory (MB): peak = 667.629 ; gain = 457.332
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:52 . Memory (MB): peak = 667.629 ; gain = 441.949
