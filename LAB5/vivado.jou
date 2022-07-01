@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Mar 12 00:11:41 2022
+# Process ID: 16604
+# Current directory: C:/Users/Beyazit/vivadoprojects/labs/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5956 C:\Users\Beyazit\vivadoprojects\labs\project_3\project_3.xpr
+# Log file: C:/Users/Beyazit/vivadoprojects/labs/project_3/vivado.log
+# Journal file: C:/Users/Beyazit/vivadoprojects/labs/project_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Beyazit/vivadoprojects/labs/project_3/project_3.xpr
+update_compile_order -fileset sources_1
+save_project_as LAB_2 C:/Users/Beyazit/vivadoprojects/labs/LAB_2 -force
+launch_simulation
+source test_bench_mod_mul.tcl
+close_sim
