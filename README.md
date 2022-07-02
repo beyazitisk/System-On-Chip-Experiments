@@ -23,4 +23,8 @@ Custom Interfacing in SoC
 
 LAB-6
 
-Interrupts in SoC
+Button Interrupt in SoC
+
+LAB-6
+
+Timer Interrupt in SoC
